@@ -1,0 +1,36 @@
+header {
+    background-color: var(--fondoHeader);
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  body{
+    font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        /* line-height: 1.42857143; */
+        /* color: #333;
+  }}
+  */
+}
+
+.servicios a{
+  text-decoration-line: none; 
+  color: white;
+  margin-left: 2rem;
+  padding: 10px 80px ;
+  border-radius: 40px 10px;
+  text-align: center;
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .maino{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .servicios a{
+    padding: 0px;
+  }
+}

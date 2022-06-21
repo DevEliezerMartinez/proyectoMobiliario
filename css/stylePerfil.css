@@ -1,0 +1,163 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap");
+ */
+:root {
+  --headerLetra: #ececec;
+  --fondoHeader: #1991eb;
+  --fondoSecundario: #003145;
+  --fondoContenido: #f7f4f2;
+  --fondoBotones: #ecd871;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--fondoContenido);
+}
+
+header {
+  background-color: var(--fondoHeader);
+  display: flex;
+  justify-content: space-evenly;
+}
+header a {
+  color: var(--headerLetra);
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400px;
+}
+
+
+.container_Derecha {
+    width: 60%;
+    display: flex;
+  }
+  
+  .logo img {
+    width: 30%;
+    max-width: 250px;
+    min-width: 80px;
+  }
+  .home {
+    display: flex;
+    align-items: center;
+  }
+  .home img {
+    width: 50px;
+  }
+
+  .menu {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .menu a :hover {
+    background-color: deepskyblue;
+    animation-delay: 10ms;
+    border-radius: 10px;
+    transition: background-color 0.9s;
+  }
+  
+  .menu li,
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 8px;
+  }
+body {
+    background-color: var(--headerLetra)
+}
+
+
+.card {
+    width: 100%;
+    border: 2px solid red;
+    background-color: #efefef;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.image img {
+    transition: all 0.5s
+}
+
+.image img:hover{
+    transform: scale(1.5)
+}
+
+
+.btn {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.idd {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.idd1 {
+    font-size: 12px
+}
+
+.number {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.follow {
+    font-size: 12px;
+    font-weight: 500;
+    color: #444444
+}
+
+.btn1 {
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: #000;
+    color: #aeaeae;
+    font-size: 15px
+}
+
+.text span {
+    font-size: 13px;
+    color: #545454;
+    font-weight: 500
+}
+
+.icons i {
+    font-size: 19px
+}
+
+hr .new1 {
+    border: 1px solid
+}
+
+.join {
+    font-size: 14px;
+    color: #a0a0a0;
+    font-weight: bold
+}
+
+.date {
+    background-color: #ccc
+}

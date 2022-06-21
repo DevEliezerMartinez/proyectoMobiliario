@@ -1,0 +1,159 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap");
+ */
+:root {
+  --headerLetra: #ececec;
+  --fondoHeader: #1991eb;
+  --fondoSecundario: #003145;
+  --fondoContenido: #f7f4f2;
+  --fondoBotones: #ecd871;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--fondoContenido);
+}
+
+header {
+  background-color: var(--fondoHeader);
+  display: flex;
+  justify-content: space-evenly;
+}
+header a {
+  color: var(--headerLetra);
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400px;
+}
+
+.container_Derecha {
+  width: 60%;
+  display: flex;
+}
+.logo {
+  width: 19%;
+}
+.logo img {
+  width: 5rem;
+  max-width: 250px;
+  min-width: 70px;
+  padding: 0.1em;
+  margin: 5px;
+}
+.home {
+  display: flex;
+  align-items: center;
+}
+.home img {
+  width: 50px;
+}
+
+.menu {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.menu a :hover {
+  background-color: deepskyblue;
+  animation-delay: 10ms;
+  border-radius: 10px;
+  transition: background-color 0.9s;
+}
+
+.menu li,
+ul {
+  display: flex;
+  list-style: none;
+  padding: 8px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: center;
+}
+
+.box {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+}
+.tablas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+}
+.contenido {
+ 
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
+.diseñoTabla {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 9% 9% 19% 12% 12% ;
+}
+.diseñoTabla span {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.diseñoTabla > div {
+  border: 1px solid black;
+}
+
+.diseñoTabla input {
+  margin-left: 10px;
+  padding: 0.5rem;
+  position: relative;
+  left: 50%;
+  top: 50%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: -20px;
+  /* top: 150px; */
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 5px;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
